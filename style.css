@@ -1,0 +1,26 @@
+.masthead { text-align: center; padding-top: 35px; padding-bottom: 35px; background-color: #fff; }
+#container { margin-right: auto; margin-left: auto; padding-left: 10px; padding-right: 10px; width: 910px;}
+.container { margin-right: auto; margin-left: auto; padding-left: 10px; padding-right: 10px; width: 910px;}
+.module-blue {background-color: #3498db;}
+.module-green {background-color: #2ecc71;}
+.module {padding-top: 35px; padding-bottom: 35px; text-align: center;   min-height: 100px;}
+.medium { width: 730px;}
+#hint {padding-top: 30px; display: none;}
+#good {padding-top: 30px; display: none;}
+#imageAdd {padding-top: 30px; display: none;}
+#cake {height: 50px; }
+#balloon {height: 44px; width: 50px; }
+#cakeWarning {display: none;}
+#balloonWarning {display: none;}
+
+body { font-family: "Brandon Grotesque", "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.42857143; color: #605f5d; background-color: #efede7;}
+h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #605f5d;
+  line-height: 1.25;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display:inline;
+}
