@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <header class="masthead">
+        <div id="container">
+            <span id="output"><h1>Order a custom banner</h1></span>
+        </div>
+    </header>
+
+    <section class="module module-blue">
+        <div class="container medium">
+            <form id="bannerForm">
+                <input size="50" maxlength="25" name="banner" id="banner" type="text" value="" required autocomplete="off" autofocus>
+                <button type="button" id="seeIt" title="click here to see your banner displayed above">See it</button>
+            </form>
+            <span id="hint">Banners must contain at least <strong>one</strong> full word (at least 4 characters)</span>
+            <span id="good"><strong>Looks Good!</strong></span>
+        </div>
+        <div id="imageAdd">Add a graphic to your banner?
+            <button type="button" id="cakeBtn">Cake</button>
+            <button type="button" id="balloonBtn">balloon</button>
+            <div id="cakeWarning">One cake per banner!
+                <button type="button" id="removeCake">Remove?</button>
+            </div>
+            <div id="balloonWarning">One balloon per banner!
+                <button type="button" id="removeBalloon">Remove?</button>
+            </div>
+        </div>
+    </section>
+    <section class="module module-green">
+        <div class="container medium">
+            <form id="orderForm">
+                First Name
+                <input size="25" maxlength="25" name="fName" id="fName" type="text" value="" autocomplete="off" >
+                <br /> Last Name
+                <input size="25" maxlength="25" name="lName" id="lName" type="text" value="" autocomplete="off">
+                <br /> Email
+                <input size="25" maxlength="25" name="email" id="email" type="text" value="" autocomplete="off">
+                <br />
+                <button type="submit" id="orderNow">Order Now</button>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="scripts/script.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+</html>
